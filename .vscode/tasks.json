@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "h:\\code\\cs5053sp23\\playgroundapp:runapp",
+			"script": "app:run",
+			"description": "Runs this project as a JVM application",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"project": "app",
+			"buildFile": "H:\\code\\cs5053sp23\\playground\\app\\build.gradle",
+			"rootProject": "playground",
+			"projectFolder": "h:\\code\\cs5053sp23\\playground",
+			"workspaceFolder": "h:\\code\\cs5053sp23\\playground",
+			"args": "",
+			"javaDebug": true,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:run"
+		}
+	]
+}
